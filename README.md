@@ -1,45 +1,50 @@
-# Vivo-Y91C-Minecraft-Java-1.12.2-OptiFine-Extreme-FPS-Test
 Extreme FPS maximization experiment in Minecraft Java Edition 1.12.2 on the Vivo Y91C using OptiFine only, prioritizing maximum FPS over gameplay quality and comfort.
-
 
 Minecraft Java 1.12.2 — Extreme FPS Experiment on Vivo Y91C
 
-An extreme FPS optimization experiment running Minecraft Java Edition 1.12.2 on a low-end Android phone using OptiFine and a Java launcher.
+An extreme FPS optimization experiment testing the performance limits of Minecraft Java Edition 1.12.2 on a low-end Android smartphone.
 
-The main objective is to achieve the highest possible FPS by prioritizing rendering performance over visual quality and gameplay comfort.
+This experiment uses OptiFine with heavily reduced graphics settings to prioritize maximum FPS over visual quality and gameplay comfort.
 
-1. Experiment Information
+1. Experiment Overview
 
-Category| Details
+The purpose of this experiment is to investigate how much FPS Minecraft Java Edition 1.12.2 can produce on the Vivo Y91C under extreme performance-oriented settings.
+
+Rather than focusing on normal gameplay, this test prioritizes reducing rendering workload and maximizing the highest observable frame rate.
+
+Highest recorded FPS: 213 FPS.
+
+The FPS fluctuated during testing, so this value represents a peak reading rather than a stable average.
+
+2. Device Specifications
+
+Category| Specification
 Tester| Yuta
 Device| Vivo Y91C (vivo 1820)
 Operating System| Android 8.1
 Processor| MediaTek Helio P22 (MT6762)
 GPU| PowerVR GE8320
 RAM| 2 GB
-Minecraft Version| Java Edition 1.12.2
+Minecraft Edition| Java Edition
+Minecraft Version| 1.12.2
 Optimization Mod| OptiFine
 Additional Optimization Mods| None
 Highest Recorded FPS| 213 FPS
-FPS Measurement Method| Built-in launcher FPS counter
 
-2. Experiment Objective
+3. Testing Objective
 
-This experiment explores how far Minecraft Java Edition 1.12.2 can be pushed on low-end mobile hardware.
+The main objectives of this experiment are:
 
-The focus is not on visual quality, smooth gameplay, or a comfortable playing experience.
+- Explore the performance limits of a low-end Android device.
+- Maximize Minecraft Java Edition FPS.
+- Investigate the effects of extremely low rendering distance.
+- Reduce unnecessary graphical effects.
+- Document the results for public reference.
+- Provide a transparent record of the testing method and its limitations.
 
-Instead, the experiment prioritizes:
+This is a performance experiment, not a demonstration of normal gameplay quality.
 
-- Maximum possible FPS.
-- Minimum rendering distance.
-- Reduced graphical workload.
-- Minimal unnecessary visual effects.
-- Performance testing under extreme settings.
-
-The goal is to document the highest observed FPS, not to claim that the same performance can be achieved on every device.
-
-3. Testing Configuration
+4. Testing Configuration
 
 Minecraft Version
 
@@ -49,25 +54,25 @@ Optimization Mod
 
 OptiFine only.
 
-No additional optimization mods were used in this experiment.
+No additional optimization mods were used in this configuration.
 
 Render Distance
 
-1 chunk, configured through Minecraft's "options.txt" file.
+1 chunk, configured directly through Minecraft's "options.txt" file.
 
-This setting minimizes the amount of surrounding terrain that Minecraft needs to render.
+The extremely low render distance reduces the amount of surrounding terrain that needs to be rendered.
 
-Resolution Scaling
+Gameplay Resolution
 
-70% gameplay resolution, using the resolution scaling feature provided by the launcher.
+70% resolution scaling, using the launcher’s built-in resolution scaling feature.
 
-This setting is a launcher feature, not an OptiFine feature.
+This is a launcher feature, not an OptiFine feature.
 
-Reducing the rendering resolution can lower the GPU workload, although the actual performance improvement depends on the hardware and other bottlenecks.
+Lower rendering resolution can reduce GPU workload, although the actual performance benefit depends on the device and other potential bottlenecks.
 
-Additional Graphics Settings
+Graphics Settings
 
-The configuration prioritizes reducing unnecessary graphical work.
+The configuration prioritizes reduced graphical workload.
 
 Relevant settings include:
 
@@ -79,88 +84,64 @@ Relevant settings include:
 - Entity Shadows: Disabled.
 - Mipmap Levels: 0.
 
-Settings were configured through Minecraft's "options.txt" and OptiFine's "optionsof.txt", where applicable.
+Settings were adjusted through "options.txt" and "optionsof.txt", where applicable.
 
-These settings are intended to reduce rendering overhead. Their individual effects were not independently measured.
+These settings were selected to reduce rendering overhead. Their individual effects were not independently measured.
 
-4. FPS Measurement Method
+5. FPS Measurement Method
 
-The FPS values were measured using the built-in FPS counter provided by the launcher, not Minecraft's F3 debug screen.
+The FPS readings were obtained using the built-in FPS counter provided by the launcher, not Minecraft's F3 debug screen.
 
-The launcher's FPS counter was used to observe the frame rate during testing.
+The launcher’s FPS counter was used to observe the frame rate during testing.
 
-The highest recorded reading was 213 FPS.
+The highest observed reading was 213 FPS.
 
-Important details:
+Measurement Details
 
-- Measurement tool: Built-in launcher FPS counter.
-- Minecraft F3 debug screen: Not used for FPS measurement.
-- Highest observed reading: 213 FPS.
-- FPS stability: The frame rate fluctuated during testing.
-- Average FPS: Not established.
-- Sustained performance: Not established.
+Category| Result
+Measurement Tool| Built-in launcher FPS counter
+Minecraft F3 Debug Screen| Not used for FPS measurement
+Highest Observed Reading| 213 FPS
+FPS Stability| Fluctuated
+Average FPS| Not established
+Sustained FPS| Not established
 
-The reported 213 FPS represents the highest observed reading during the experiment. It should not be interpreted as a stable or sustained frame rate.
+The 213 FPS result is the highest observed reading recorded during the experiment.
 
-Different launchers may implement their FPS counters differently, so comparisons should account for the measurement method.
+It should not be interpreted as the average frame rate or proof that the device can maintain 213 FPS continuously.
 
-5. Test Results
+Different launchers may implement their FPS counters differently, so comparisons should consider the measurement method.
 
-Highest Recorded FPS: 213 FPS
+6. Test Results
 
-The Vivo Y91C reached a recorded peak of 213 FPS while running Minecraft Java Edition 1.12.2 with OptiFine.
+The Vivo Y91C recorded a peak reading of 213 FPS while running Minecraft Java Edition 1.12.2 with OptiFine.
 
-However, the FPS was not stable and fluctuated during testing.
+The test used a render distance of 1 chunk, 70% gameplay resolution, and heavily reduced graphics settings.
 
-This result demonstrates a peak observed reading under the specific test configuration. It does not establish the average FPS, minimum FPS, or long-term stability.
+The frame rate fluctuated during testing.
 
-Screenshot Evidence
+Therefore, the result documents the highest observed FPS rather than a stable or sustained performance level.
 
-Screenshots can be added to document different FPS readings observed during testing.
+No average FPS or frame-time consistency measurements are claimed in this report.
 
-Suggested repository structure:
+7. Why Can Reported FPS Exceed the Display Refresh Rate?
 
-screenshots/
-├── fps-213.png
-├── fps-200.png
-└── fps-180.png
+FPS and display refresh rate describe different aspects of performance.
 
-If the screenshots are available, display them below:
+- FPS measures how many frames the game produces per second.
+- Display refresh rate measures how many times the screen refreshes per second.
 
-Peak Reading — 213 FPS
+A game can report an FPS value higher than the display's refresh rate.
 
-"213 FPS" (screenshots/fps-213.png)
+However, this does not mean the screen physically displays every frame produced by the game.
 
-Another Reading — 200 FPS
+The actual visual benefit depends on synchronization, frame delivery, rendering behavior, and the display hardware.
 
-"200 FPS" (screenshots/fps-200.png)
+8. Why Other Users May Get Different Results
 
-Another Reading — 180 FPS
+Other users may obtain different FPS results, even when running the same Minecraft version.
 
-"180 FPS" (screenshots/fps-180.png)
-
-These filenames are examples. Replace them with the actual screenshot filenames if necessary.
-
-Each screenshot documents a momentary reading and does not independently prove sustained performance.
-
-6. Why Can FPS Exceed the Phone's Refresh Rate?
-
-A phone's display refresh rate and Minecraft's reported FPS measure different things.
-
-- FPS indicates how many frames the game produces per second.
-- Display refresh rate indicates how many times the screen can refresh per second.
-
-If Minecraft reports more FPS than the display's refresh rate, the game may still be producing frames faster than the screen can display them.
-
-However, this does not mean the screen physically displays every frame.
-
-The actual benefit depends on synchronization, frame delivery, rendering behavior, and the device's display capabilities.
-
-7. Why Might Other Users Get Different Results?
-
-The same Minecraft version and device do not guarantee identical FPS results.
-
-Performance can vary depending on:
+Possible factors include:
 
 - Launcher implementation and overhead.
 - Gameplay resolution.
@@ -173,39 +154,40 @@ Performance can vary depending on:
 - World complexity and in-game activity.
 - FPS measurement method.
 
-For a meaningful comparison, testing conditions should be as similar as possible.
+For meaningful comparisons, testing conditions should be as similar as possible.
 
-A result from one device should not automatically be treated as a universal benchmark.
+Results from different devices or configurations should not automatically be treated as directly equivalent benchmarks.
 
-8. OptiFine Only vs. Other Optimization Mods
+9. OptiFine Only vs. Other Optimization Mods
 
 This experiment uses OptiFine without additional optimization mods.
 
-Other configurations may use different combinations of performance mods, including Sodium, Lithium, or other compatible optimization tools.
+Other configurations may use different optimization solutions, including Sodium, Lithium, or other compatible performance mods.
 
-Their results may differ because they use different optimization approaches, rendering implementations, and compatibility requirements.
+Their results may differ because of differences in rendering implementations, optimization methods, compatibility, and configuration.
 
 This experiment does not claim that OptiFine is universally faster than other optimization solutions.
 
-It documents one specific configuration and its observed result.
+It documents the performance observed with one specific configuration on one specific device.
 
-A fair comparison would require testing different configurations under controlled, equivalent conditions.
+A fair comparison would require equivalent testing conditions and clearly documented measurement methods.
 
-9. Experimental Limitations
+10. Experimental Limitations
 
-This experiment has several limitations:
+Several limitations should be considered when interpreting these results:
 
 1. The highest observed FPS is not the same as average FPS.
-2. FPS fluctuated during testing.
-3. Long-term sustained performance was not established.
-4. The individual contribution of each setting was not measured independently.
-5. A screenshot captures a moment rather than the complete performance history.
-6. Results may differ under other launchers, worlds, or testing conditions.
-7. The launcher FPS counter was used instead of the F3 debug screen.
+2. The FPS fluctuated during testing.
+3. Sustained performance was not established.
+4. The individual contribution of each setting was not independently measured.
+5. Screenshots capture individual readings rather than a complete performance history.
+6. Results may differ with other launchers, worlds, or configurations.
+7. FPS was measured using the launcher's built-in counter rather than Minecraft's F3 debug screen.
+8. The test does not establish how long the device can maintain its peak FPS.
 
-These limitations should be considered when interpreting the result.
+These limitations are important for keeping the experiment transparent and avoiding unsupported performance claims.
 
-10. Conclusion
+11. Conclusion
 
 The Vivo Y91C recorded a peak of 213 FPS in Minecraft Java Edition 1.12.2 using OptiFine, a render distance of 1 chunk, 70% gameplay resolution, and heavily reduced graphics settings.
 
@@ -213,9 +195,31 @@ FPS was measured using the launcher's built-in FPS counter rather than the Minec
 
 The result represents a peak observed reading, not a verified average or stable sustained frame rate.
 
-This experiment documents how extreme settings can be used to explore the performance limits of low-end mobile hardware running Minecraft Java Edition.
+This experiment documents an attempt to explore the performance limits of low-end mobile hardware running Minecraft Java Edition under extreme settings.
 
-Further testing with consistent conditions and additional measurements would be needed to establish average FPS, stability, and the effects of individual settings.
+Further testing under consistent conditions would be needed to establish average FPS, sustained performance, and the effects of individual settings.
+
+---
+
+12. Screenshots and Test Evidence
+
+The screenshots below document FPS readings observed during testing.
+
+They provide visual evidence of individual readings and should not be interpreted as proof of sustained FPS.
+
+Peak Recorded FPS — 213 FPS
+
+"Minecraft running at 213 FPS" (screenshots/fps-213.png)
+
+Additional Reading — 200 FPS
+
+"Minecraft running at 200 FPS" (screenshots/fps-200.png)
+
+Additional Reading — 180 FPS
+
+"Minecraft running at 180 FPS" (screenshots/fps-180.png)
+
+Note: Replace the example filenames with the actual screenshot filenames uploaded to the repository. Remove any entries for screenshots that have not been uploaded.
 
 ---
 
