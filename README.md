@@ -206,15 +206,18 @@ They provide visual evidence of individual readings and should not be interprete
 
 Additional Reading — 197 FPS
 
-"Minecraft Java 1.12.2 running at 197 FPS" (https://raw.githubusercontent.com/Yuta-Devl/Vivo-Y91C-Minecraft-Java-1.12.2-OptiFine-Extreme-FPS-Test/f384b1c76ba4dc4313773cf63891700ccffa05a7/Screenshot_20261022_053558.jpg)
+"Minecraft Java 1.12.2 running at 197 FPS" 
+:![Image Alt](https://raw.githubusercontent.com/Yuta-Devl/Vivo-Y91C-Minecraft-Java-1.12.2-OptiFine-Extreme-FPS-Test/f384b1c76ba4dc4313773cf63891700ccffa05a7/Screenshot_20261022_053558.jpg)
 
 Additional Reading — 204 FPS
 
-"Minecraft Java 1.12.2 running at 204 FPS" (https://raw.githubusercontent.com/Yuta-Devl/Vivo-Y91C-Minecraft-Java-1.12.2-OptiFine-Extreme-FPS-Test/f384b1c76ba4dc4313773cf63891700ccffa05a7/Screenshot_20261022_053553.jpg)
+"Minecraft Java 1.12.2 running at 204 FPS"
+:![Image Alt](https://raw.githubusercontent.com/Yuta-Devl/Vivo-Y91C-Minecraft-Java-1.12.2-OptiFine-Extreme-FPS-Test/f384b1c76ba4dc4313773cf63891700ccffa05a7/Screenshot_20261022_053553.jpg)
 
 Peak Recorded FPS — 213 FPS
 
-"Minecraft Java 1.12.2 running at 213 FPS" (https://raw.githubusercontent.com/Yuta-Devl/Vivo-Y91C-Minecraft-Java-1.12.2-OptiFine-Extreme-FPS-Test/7533a4204d70f61311debd49477e1b7f80c01cb6/Screenshot_20261022_053628.jpg)
+"Minecraft Java 1.12.2 running at 213 FPS" 
+:![Image Alt](https://raw.githubusercontent.com/Yuta-Devl/Vivo-Y91C-Minecraft-Java-1.12.2-OptiFine-Extreme-FPS-Test/7533a4204d70f61311debd49477e1b7f80c01cb6/Screenshot_20261022_053628.jpg)
 
 ---
 
